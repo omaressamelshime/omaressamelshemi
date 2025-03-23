@@ -1,0 +1,172 @@
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Essam El Shemi</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="importmap">
+    {
+        "imports": {
+            "config": "./config.js"
+        }
+    }
+    </script>
+    <script type="module" src="main.js"></script>
+</head>
+<body>
+    <nav class="nav-container">
+        <div class="main-nav">
+            <button class="hamburger">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">نبذة عني</a>
+                <a href="#showcase" class="nav-link">أعمالي</a>
+                <a href="#hobbies" class="nav-link">هواياتي</a>
+                <a href="#contact" class="nav-link">تواصل معي</a>
+            </div>
+            <div class="theme-toggle" data-theme="dark">
+                <span>🌙</span>
+                <span>☀️</span>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="header-container">
+            <div class="profile-section">
+                <div class="avatar-container">
+                    <img src="profile-placeholder.jpg" alt="الصورة الشخصية" class="avatar-image">
+                </div>
+            </div>
+            <div class="header-content">
+                <h1 class="name">OMAR ESSAM</h1>
+                <p class="tagline">مصمم مواقع |  </p>
+            </div>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>نبذة عني</h2>
+        <p class="bio"></p>
+        <div class="skills-container">
+            <div class="skill">
+                <svg viewBox="0 0 24 24" class="skill-icon">
+                    <path d="M8,3 L2,12 L8,21" stroke="var(--accent-color)" fill="none" stroke-width="2"/>
+                    <path d="M16,3 L22,12 L16,21" stroke="var(--accent-color)" fill="none" stroke-width="2"/>
+                </svg>
+                <h3>تطوير المواقع</h3>
+                <p>مبرمج ومطور مواقع الويب</p>
+            </div>
+            <div class="skill">
+                <svg viewBox="0 0 24 24" class="skill-icon">
+                    <circle cx="12" cy="12" r="8" stroke="var(--accent-color)" fill="none" stroke-width="2"/>
+                    <circle cx="12" cy="12" r="3" fill="var(--accent-color)"/>
+                </svg>
+                <h3>الامن السيبراني</h3>
+                <p>المساعدة في حماية انظمتك واختراق من يحاول التلاعب بها</p>
+            </div>
+            <div class="skill">
+                <svg viewBox="0 0 24 24" class="skill-icon">
+                    <polygon points="12,2 22,8 22,16 12,22 2,16 2,8" stroke="var(--accent-color)" fill="none" stroke-width="2"/>
+                </svg>
+                <h3>انظمة متكاملة للمطاعم والكافيهات والمتاجر</h3>
+                <p>يمكنني تصميم انظمة مواقع لعملائك لروئية منتجاتك وشرائها عبر الانترنت</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="showcase">
+        <h2>أعمالي</h2>
+        <div class="showcase-grid">
+            <!-- Will be populated by JavaScript -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>تواصل معي</h2>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <svg class="contact-icon" viewBox="0 0 24 24">
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+                <h3 class="contact-title">البريد الإلكتروني</h3>
+                <p class="contact-text">تواصل معي عبر البريد الإلكتروني</p>
+                <a href="/cdn-cgi/l/email-protection#e784888993868493a7829f868a978b82c984888a" class="contact-button">راسلني</a>
+            </div>
+            <div class="contact-card">
+                <svg class="contact-icon" viewBox="0 0 24 24">
+                    <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56-.35-.12-.74-.03-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z"/>
+                </svg>
+                <h3 class="contact-title">الهاتف</h3>
+                <p class="contact-text">اتصل بي مباشرة</p>
+                <a href="tel:+201029985266" class="contact-button">اتصل الآن</a>
+            </div>
+            <div class="contact-card">
+                <svg class="contact-icon" viewBox="0 0 24 24">
+                    <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-2 12H6v-2h12v2zm0-3H6V9h12v2zm0-3H6V6h12v2z"/>
+                </svg>
+                <h3 class="contact-title">ارسل رسالة مباشرة</h3>
+                <p class="contact-text">املأ النموذج للتواصل معي</p>
+                <button class="contact-button" id="contact-form-btn">ارسل رسالة</button>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="https://twitter.com/omaressamelshemi" class="social-link twitter" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" class="social-icon">
+                    <path d="M22,4 C21,5 19,5 18,5 C19,4 20,3 20,2 C18,3 17,3 16,3 C14,1 11,1 9,3 C7,5 7,8 8,10 C3,10 0,7 0,3 C0,6 2,9 4,10 C3,10 2,10 1,9 C1,12 3,14 6,14 C5,14 4,14 3,14 C4,16 6,18 9,18 C7,19 4,20 1,20 C8,22 16,19 16,10 C16,10 16,10 16,9 C17,8 21,5 22,4" stroke="currentColor" fill="none" stroke-width="1.5"/>
+                </svg>
+            </a>
+            <a href="https://instagram.com/omaressamelshemi" class="social-link instagram" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" class="social-icon">
+                    <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" fill="none" stroke-width="2"/>
+                    <circle cx="12" cy="12" r="5" stroke="currentColor" fill="none" stroke-width="2"/>
+                    <circle cx="17" cy="7" r="1" fill="currentColor"/>
+                </svg>
+            </a>
+            <a href="https://facebook.com/omaressamelshemi" class="social-link facebook" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" class="social-icon">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" stroke="currentColor" fill="none" stroke-width="2"/>
+                </svg>
+            </a>
+            <a href="https://wa.me/+201029985266" class="social-link whatsapp" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" class="social-icon">
+                    <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21" stroke="currentColor" fill="none" stroke-width="2"/>
+                    <path d="M9 10a3 3 0 0 1 6 0c0 1.5-2.5 2.5-3 3m3 4h.01" stroke="currentColor" fill="none" stroke-width="2"/>
+                </svg>
+            </a>
+            <a href="https://t.me/El_Shemi_Basha" class="social-link telegram" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" class="social-icon">
+                    <path d="M21 5L2 12.5l7 2.5m12-10L11 15l-4 6" stroke="currentColor" fill="none" stroke-width="2"/>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <h2>هواياتي</h2>
+        <div class="hobbies-grid">
+            <!-- Dynamically populated by JavaScript -->
+        </div>
+    </section>
+
+    <footer>
+        <p class="copyright"> 2024 OMAR. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>تواصل معي</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="الاسم" required>
+                <input type="email" placeholder="البريد الإلكتروني" required>
+                <textarea placeholder="الرسالة" required></textarea>
+                <button type="submit">إرسال الرسالة</button>
+            </form>
+        </div>
+    </div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+</body>
+</html>
