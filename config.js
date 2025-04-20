@@ -52,6 +52,13 @@ export const config = {
             tags: ["تطوير", "اقتراحات"],
             link: "https://hagogah.com/",
             image: "https://i.ibb.co/nqjtRY8F/Screenshot-21-3-2025-142455-hagogah-com.jpg"
+        },
+        {
+            title: "موقع تغيير الروابط",
+            description: "موقع يساعدك في تغيير شكل الرابط للخداع وجعلة ب اي شكل تريد",
+            tags: ["تصميم", "انشاء"],
+            link: "https://omaressamelshemi-project.on.drv.tw/short-link.html",
+            image: "https://i.ibb.co/JjXnC1mg/2025-04-20-022116.png"
         }
     ],
     hobbies: [
